@@ -1,0 +1,110 @@
+/* Variablen für CSS */
+
+:root {
+    /* Colors general */
+    /*   --Default_text: #000000;
+    --dish_price_text: #675E54;
+    --h2_text: #9F0908;
+    --footer: #0A141E;
+    --color_standard_white: white; */
+
+
+    /* Fonts familys */
+    --fonts-family-ptsans_regular: "PTSans-Regular";
+    --fonts-family-viga_regular: "Viga_Regular";
+
+}
+
+
+@font-face {
+    font-family: 'Viga_Regular';
+    src: url('./fonts/Viga-Regular.woff2') format('woff2'),
+        url('./fonts/Viga-Regular.woff') format('woff'),
+        url('./fonts/Viga-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PTSans-Regular';
+    src: url('./fonts/PTSans-Regular.woff2') format('woff2'),
+        url('./fonts/PTSans-Regular.woff') format('woff'),
+        url('./fonts/PTSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body {
+    
+    font-family: var(--fonts-family-ptsans_regular);
+    color:white;
+}
+*{
+     margin: 0;
+    padding: 0;
+}
+
+.aot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/header.png);
+    background-position: center ;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+}
+
+.navLink{
+    color:white;
+    text-decoration: none;
+    margin-left: 16px;;
+}
+
+.navLink:hover{
+    color:rgb(172,133,77);
+}
+
+a img{
+    height: 24px;
+    width: auto;
+    margin-left:16px;
+}
+a img:hover{   
+    filter: drop-shadow(0px 0px 10px rgb(250, 250, 253));
+    cursor: pointer;
+}
+
+h1{
+    font-size: 114px;
+}
+
+.btn_upcoming{
+    background-color: rgb(172,133,77) ;
+    padding: 5px 20px; 
+    text-decoration: none;
+    font-size: 24px;
+    font-family: var(--fonts-family-ptsans_regular);
+    color: white;
+    margin-top:48px;
+}
