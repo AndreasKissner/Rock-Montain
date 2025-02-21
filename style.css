@@ -108,3 +108,35 @@ h1{
     color: white;
     margin-top:48px;
 }
+
+/* =================================== */
+
+.section_quick_links{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.section_quick_links h2{
+    padding-top:80px;
+    color: rgb(172,133,77);
+    font-size: 36px;
+}
+
+.section_quick_links img{
+    width: 500px;
+    height: 500px;
+    padding-bottom: 80px;
+}
+/* ======================================= */
+
+.section_festival {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+.sectio_festival p{
+    color: white;
+}
